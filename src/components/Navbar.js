@@ -4,6 +4,7 @@ import {NavLink} from "react-router";
 import { SiLeetcode } from "react-icons/si";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { SiCodingninjas } from "react-icons/si";
 const Navbar =()=>
 {
     function hoverelement(){
@@ -34,7 +35,7 @@ const Navbar =()=>
             <a href="https://github.com/Vishnu-Luffy/github/"onClick={hoverelement} ><FaGithub/></a>
             <a href="https://leetcode.com/u/tenalivishnuvardhanreddy007/"  onClick={hoverelement}><SiLeetcode /></a>
             <a href="https://www.linkedin.com/in/vishnu-reddy-93924120a/"   onClick={hoverelement}><FaLinkedin/></a>
-
+            <a href="https://www.naukri.com/code360/profile/ca36926e-a32a-4c9f-b410-a127e7218296"   onClick={hoverelement}><SiCodingninjas /></a>
         </div>
         </div>
     
