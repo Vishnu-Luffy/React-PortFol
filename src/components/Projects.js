@@ -4,7 +4,8 @@ const Projects =()=>
 {
     return (
         <>
-        <div className="mt-10 flex flex-col sm:flex-row justify-center items-center  ">
+        <div className="mt-10 text-white flex flex-col sm:flex-row justify-center items-center bg-hero-pattern h-[500px] w-[1080px] mx-auto rounded-md mix-blend-multiply">
+          
               <div className="max-w-[600px] mx-auto p-5 rounded-md">
              <p>
               <span className="font-bold align-start">Project:Animated Website Development</span>
@@ -13,7 +14,7 @@ const Projects =()=>
              </p>
             </div>
             <div className="  overflow-hidden  mx-auto ">
-              <a href="https://i.pinimg.com/originals/c1/17/79/c117796dd56b8e6f1adf42a4fb8929c9.jpg"><img className=" w-[400px] h-[300px] rounded-md object-center object-fill"  src="https://i.pinimg.com/originals/c1/17/79/c117796dd56b8e6f1adf42a4fb8929c9.jpg"/></a>
+              <a href="https://i.pinimg.com/originals/c1/17/79/c117796dd56b8e6f1adf42a4fb8929c9.jpg"><img className=" w-[200px] h-[150px] rounded-md object-center object-fill"  src="../hero-background.jpg"/></a>
            </div>
             </div>
           
@@ -26,7 +27,7 @@ const Projects =()=>
              </p>
             </div>
             <div className=" overflow-hidden  mx-auto">
-              <a href="https://react-port-fol-mc95.vercel.app/" target="_blank"><img className="w-[400px] h-[300px] rounded-md object-center object-fill"  src="https://d6f6d0kpz0gyr.cloudfront.net/uploads/images/blog/illu-animation/Screen_Shot_2017-02-08_at_07.39.39.png"/></a>  
+              <a href="https://vishnu0077.wordpress.com" target="_blank"><img className="w-[400px] h-[300px] rounded-md object-center object-fill"  src="https://w0.peakpx.com/wallpaper/433/591/HD-wallpaper-hug-fan-art-little-nightmares-little-nightmares-six-original-art-scary-spooky.jpg"/></a>  
             </div>
             </div>
              <div className="mt-10 flex flex-col sm:flex-row justify-center items-center ">
@@ -38,7 +39,7 @@ const Projects =()=>
              </p>
             </div>
             <div className=" overflow-hidden  mx-auto">
-              <a href="https://www.google.com/search?sca_esv=360d606574466e04&sxsrf=ADLYWIJe6bXnI1D-TM43yngA--4J04roUA:1733479751897&q=animated+websites&udm=2&fbs=AEQNm0DvD4UMlvdpwktgGj2ZHhIXAIHy0lF5HBdT5py_0SmcDRj-ZcG8sN4MPTI25WFYis4wl2w2HABIwzHTNHgs0XyvwBQ326rTyYqJYbg_1X6pmt2OKPouyxEdwTCL9hsaApO3FRLbqtkj9tDfgnXKaUvRe7AGx_xdZ-OvZau2lFn-u1kTzfVBNQnpFLBtYqyr8ThTATosP7fshT1I2Y9qykLFrVsXeA&sa=X&ved=2ahUKEwiXhNmm85KKAxXtUWwGHY5YEQQQtKgLegQIFxAB&biw=638&bih=604&dpr=1.5#vhid=zZ2SIvM3Y3PO-M&vssid=mosaic"><img className="w-[400px] h-[300px] rounded-md object-center object-fill"  src="https://d6f6d0kpz0gyr.cloudfront.net/uploads/images/blog/illu-animation/Screen_Shot_2017-02-08_at_07.39.39.png"/></a>  
+              <a href="https://w0.peakpx.com/wallpaper/433/591/HD-wallpaper-hug-fan-art-little-nightmares-little-nightmares-six-original-art-scary-spooky.jpg" target="_blank"><img className="w-[400px] h-[300px] rounded-md object-center object-fill"  src="https://platform.polygon.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/8382105/ss_8100f5db18a37496396985b1aeedf308bc2a9f46.1920x1080.jpg?quality=90&strip=all&crop=0,0,100,100"/></a>  
             </div>
             </div>
         </>

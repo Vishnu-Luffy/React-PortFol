@@ -5,6 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'hero-pattern': "url('/public/robot.jpg')",
+        'footer-texture': "url('/img/footer-texture.png')",
+      },
       keyframes: {
         //Our fall animation keyframes              
         fall: {

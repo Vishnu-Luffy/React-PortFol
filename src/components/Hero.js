@@ -24,7 +24,7 @@ const Hero =()=>
              </p>
             </div>
             <div className=" w-[400px] overflow-hidden  mx-auto">
-                <img className="h-[400px]" src="https://i.pinimg.com/474x/aa/58/f8/aa58f8aec3fb150738c4ca7a90f46fc3.jpg"/>
+                <img className="h-[400px] w-[400px] rounded-md" src="../2020-12-02.webp"/>
             </div>
           
         </div>
