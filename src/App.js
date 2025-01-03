@@ -9,9 +9,9 @@ import Resume from "./components/Resume";
 import {Routes,Route} from "react-router";
 function App() {
   return (
-    <div className="mt-10 ">
+    <div className=" bg-black text-white">
       
-      <div className="">
+      <div className="bg-red">
         <Navbar/>
       </div>
       <div className="max-w[1080px] mx-auto">

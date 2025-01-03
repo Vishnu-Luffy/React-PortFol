@@ -10,7 +10,7 @@ const Hero =()=>
 {
     return (
         <>
-        <div className="mt-10 flex flex-warp items=center overflow-hidden">
+        <div className="mt-10 md:flex items=center ">
 
             <div className="max-w-[600px] mx-auto p-5 rounded-md">
              <p>
@@ -23,8 +23,8 @@ const Hero =()=>
           I look forward to connecting with like-minded professionals and diving into the world of web development, where every line of code is a step towards building a better digital future.
              </p>
             </div>
-            <div className=" w-[400px] overflow-hidden  mx-auto">
-                <img className="h-[400px] w-[400px] rounded-md" src="../2020-12-02.webp"/>
+            <div className=" w-[400px] bg-contain  mx-auto">
+                <img className=" h-[400px] w-[400px]  bg-cover rounded-md" src="../2020-12-02.webp"/>
             </div>
           
         </div>

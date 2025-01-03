@@ -12,7 +12,7 @@ const Navbar =()=>
      
     }
     return (
-        <div className="flex justify-evenly mx-auto flex-wrap">
+        <div className="flex justify-evenly mx-auto flex-wrap bg-gray-400 p-4 text-black">
         <NavLink to="/">
         <img src="https://i.pinimg.com/736x/3c/48/4f/3c484f0840aaaeb743cf066c94692b75.jpg"
         className=" h-[40px] rounded-md hover:rounded-full"></img>
@@ -28,11 +28,11 @@ const Navbar =()=>
             <span className="hover:font-bold">Achivements</span>
             </NavLink>
             <NavLink to="/story">
-            <span className="hover:font-bold">Mystory</span>
+            <span className="hover:font-bold">Hobbies/interests </span>
             </NavLink>
         </div>
         <div className="flex items-center gap-2">
-            <a href="https://github.com/Vishnu-Luffy/github/"onClick={hoverelement} ><FaGithub/></a>
+            <a href="https://github.com/Vishnu-Luffy"onClick={hoverelement} ><FaGithub/></a>
             <a href="https://leetcode.com/u/tenalivishnuvardhanreddy007/"  onClick={hoverelement}><SiLeetcode /></a>
             <a href="https://www.linkedin.com/in/vishnu-reddy-93924120a/"   onClick={hoverelement}><FaLinkedin/></a>
             <a href="https://www.naukri.com/code360/profile/ca36926e-a32a-4c9f-b410-a127e7218296"   onClick={hoverelement}><SiCodingninjas /></a>

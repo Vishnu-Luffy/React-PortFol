@@ -4,7 +4,7 @@ const Projects =()=>
 {
     return (
         <>
-        <div className="mt-10 text-white flex flex-col sm:flex-row justify-center items-center bg-hero-pattern h-[500px] w-[1080px] mx-auto rounded-md mix-blend-multiply">
+        <div className="mt-10 flex flex-col sm:flex-row justify-center items-center    md-h[500px] md-[700px] mx-auto rounded-md overflow-hidden">
           
               <div className="max-w-[600px] mx-auto p-5 rounded-md">
              <p>
@@ -14,7 +14,7 @@ const Projects =()=>
              </p>
             </div>
             <div className="  overflow-hidden  mx-auto ">
-              <a href="https://i.pinimg.com/originals/c1/17/79/c117796dd56b8e6f1adf42a4fb8929c9.jpg"><img className=" w-[200px] h-[150px] rounded-md object-center object-fill"  src="../hero-background.jpg"/></a>
+              <a href="https://brainwave-main-mu.vercel.app/" target="_blank"><img className=" w-[400px] h-[400px] rounded-md object-center object-fill"  src="../hero-background.jpg"/></a>
            </div>
             </div>
           
@@ -26,22 +26,24 @@ const Projects =()=>
             This project entails the development of a personal portfolio website using cutting-edge web technologies to showcase your skills, projects, and experiences. The website employs React Router for seamless navigation across different sections, ensuring a smooth user experience. React Icons is utilized to incorporate visually appealing and intuitive icons throughout the site, enhancing the visual appeal and usability. React Toastify provides elegant and customizable notifications to keep users informed about various actions and events, improving the overall interaction quality. Tailwind CSS is used for styling the website, offering a highly customizable and responsive design framework that ensures the site looks great on all devices. The combination of these technologies results in a highly professional, visually attractive, and user-friendly portfolio website.
              </p>
             </div>
-            <div className=" overflow-hidden  mx-auto">
-              <a href="https://vishnu0077.wordpress.com" target="_blank"><img className="w-[400px] h-[300px] rounded-md object-center object-fill"  src="https://w0.peakpx.com/wallpaper/433/591/HD-wallpaper-hug-fan-art-little-nightmares-little-nightmares-six-original-art-scary-spooky.jpg"/></a>  
+            <div className=" overflow-hidden mx-auto">
+              <a href="" target="_blank"><img className="w-[400px] h-[400px] rounded-md object-center object-fill"  src=""/></a>  
             </div>
             </div>
-             <div className="mt-10 flex flex-col sm:flex-row justify-center items-center ">
+            <div className="mt-10 flex flex-col sm:flex-row justify-center items-center ">
             <div className="max-w-[600px] mx-auto p-5 rounded-md">
              <p>
-              <span className="font-bold align-start">Project:3D UI Development with Three.jsand React</span>
+              <span className="font-bold align-start">Weather App</span>
             <br/>  <span className="font-bold align-start">Description:</span>
-            This project focuses on creating an immersive 3D user interface using Three.jsin conjunction with React. Three.js, a powerful JavaScript library, enables the rendering of complex 3D graphics in a web environment, offering a visually stunning experience. By integrating Three.jswith React, the project achieves a dynamic and interactive UI that seamlessly updates and responds to user interactions. This combination allows for the creation of highly engaging visual effects, 3D models, and animations, all within a structured, component-based React framework. The project demonstrates advanced skills in 3D rendering and modern web development, resulting in a cutting-edge digital interface that captivates users.
+             Weather App (React)
+             Developed a responsive weather application using React, integrating real-time weather data from the OpenWeatherMap API.
              </p>
             </div>
-            <div className=" overflow-hidden  mx-auto">
-              <a href="https://w0.peakpx.com/wallpaper/433/591/HD-wallpaper-hug-fan-art-little-nightmares-little-nightmares-six-original-art-scary-spooky.jpg" target="_blank"><img className="w-[400px] h-[300px] rounded-md object-center object-fill"  src="https://platform.polygon.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/8382105/ss_8100f5db18a37496396985b1aeedf308bc2a9f46.1920x1080.jpg?quality=90&strip=all&crop=0,0,100,100"/></a>  
+            <div className=" overflow-hidden mx-auto">
+              <a href="https://weather-pwa-eosin.vercel.app/" target="_blank"><img className="w-[400px] h-[400px] rounded-md object-center object-fill"  src="../logo.png"/></a>  
             </div>
             </div>
+                 
         </>
     )
 
