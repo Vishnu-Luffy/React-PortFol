@@ -11,16 +11,16 @@ const Achivements =()=>
             Apart from volleyball and esports, I have actively participated in a range of sports, including shuttle, cricket, and swimming, further highlighting my diverse athletic abilities.
            </p>
             <div className="flex flex-wrap mt-10 ">
-            <img className="mx-auto w-[300px] h-[300px] mt-2" src="" alt="image-1">
+            <img className="mx-auto w-[300px] h-[300px] mt-2" src="../Vollyball.jpg" alt="image-1">
             
             </img>
-            <img className="mx-auto w-[300px] h-[300px] mt-2" src="" alt="image-2 ">
+            <img className="mx-auto w-[300px] h-[300px] mt-2" src="../medals.jpg" alt="image-2 ">
             
             </img>
-            <img className=" mx-auto w-[300px] h-[300px] mt-2" src="" alt="image-3 ">
+            <img className=" mx-auto w-[300px] h-[300px] mt-2" src="../Winner.jpg" alt="image-3 ">
             
             </img>
-            <img className=" mx-auto w-[300px] h-[300px] mt-2" src="" alt="image-4 ">
+            <img className=" mx-auto w-[300px] h-[300px] mt-2" src="../Kabaddi.jpg" alt="image-4 ">
             
             </img>
 
