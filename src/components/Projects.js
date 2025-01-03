@@ -27,7 +27,7 @@ const Projects =()=>
              </p>
             </div>
             <div className=" overflow-hidden mx-auto">
-              <a href="" target="_blank"><img className="w-[400px] h-[400px] rounded-md object-center object-fill"  src=""/></a>  
+              <a href="/" target="_blank"><img className="w-[400px] h-[400px] rounded-md object-center object-fill"  src="React-App.png"/></a>  
             </div>
             </div>
             <div className="mt-10 flex flex-col sm:flex-row justify-center items-center ">
@@ -43,7 +43,20 @@ const Projects =()=>
               <a href="https://weather-pwa-eosin.vercel.app/" target="_blank"><img className="w-[400px] h-[400px] rounded-md object-center object-fill"  src="../logo.png"/></a>  
             </div>
             </div>
-                 
+            <div className="mt-10 flex flex-col sm:flex-row justify-center items-center ">
+            <div className="max-w-[600px] mx-auto p-5 rounded-md">
+             <p>
+              <span className="font-bold align-start"> WordPress Website Development</span>
+            <br/>  <span className="font-bold align-start">Description:</span>
+            Designed and developed a professional and user-friendly website using WordPress, leveraging pre-built templates to streamline the process and ensure a polished final product.
+
+             
+             </p>
+            </div>
+            <div className=" overflow-hidden mx-auto">
+              <a href="https://vishnu0077.wordpress.com" target="_blank"><img className="w-[400px] h-[400px] rounded-md object-center object-fill"  src="boundary.png"/></a>  
+            </div>
+            </div>
         </>
     )
 
